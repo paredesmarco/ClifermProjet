@@ -6,10 +6,10 @@ import plotly.graph_objects as go
 
 def show_dashboard():
     # Configuración de la página
-    st.set_page_config(page_title="ClifermProjet IA - Dashboard", layout="wide")
+    st.set_page_config(page_title="ClifermProject IA - Dashboard", layout="wide")
 
     # --- TÍTULO Y ESTADO DEL MODELO ---
-    st.title("📊 ClifermProjet IA: Gestión de Cuentas por Pagar")
+    st.title("📊 ClifermProject IA: Gestión de Cuentas por Pagar")
     st.markdown("---")
 
     # --- INDICADORES PRINCIPALES (KPIs) ---

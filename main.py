@@ -4,7 +4,7 @@ from pagos import show_pagos
 from dashboard import show_dashboard
 
 # Configuración general
-st.set_page_config(page_title="ClifermProjet IA - App", layout="wide")
+st.set_page_config(page_title="ClifermProject IA - App", layout="wide")
 
 # --- NAVEGACIÓN ---
 st.sidebar.title("🏢 ClifermProject IA")
