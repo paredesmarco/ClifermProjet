@@ -26,7 +26,7 @@ def show_recepcion():
         st.subheader("Bandeja de Validación")
         data_ocr = pd.DataFrame({
             "Documento": ["FAC-802", "FAC-805", "NC-102"],
-            "Proveedor": ["Suzuki Ecuador", "Ionos Cloud", "Papelería Local"],
+            "Proveedor": ["Suzuki", "Ionos Cloud", "Papelería Local"],
             "Confianza IA": ["99%", "95%", "54%"],
             "Estado": ["Validado", "Validado", "Error de Lectura"]
         })
