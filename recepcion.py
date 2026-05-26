@@ -28,7 +28,7 @@ def show_recepcion():
             "Documento": ["FAC-802", "FAC-805", "NC-102"],
             "Proveedor": ["Suzuki", "Ionos Cloud", "Papelería Local"],
             "Confianza IA": ["99%", "95%", "54%"],
-            "Estado": ["Validado", "Validado", "Revisión Requerida"]
+            "Estado": ["Validado", "Validado - Lista Blanca", "Revisión Requerida"]
         })
         st.dataframe(data_ocr, use_container_width=True)
         st.button("Procesar Lote Automático")
